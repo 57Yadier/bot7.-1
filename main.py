@@ -559,14 +559,14 @@ def onmessage(update,bot:ObigramClient):
 
 
 def main():
-    bot_token = os.environ.get('bot_token')
+    bot_token = os.environ.get('5416641824:AAEzeDxBMvwkf-lnZjIPmrTs9LSt7rMW7EE')
 
     #set in debug
     bot_token = '5416641824:AAEzeDxBMvwkf-lnZjIPmrTs9LSt7rMW7EE'
 
-    bot = ObigramClient(bot_token)
+    bot = ObigramClient(5416641824:AAEzeDxBMvwkf-lnZjIPmrTs9LSt7rMW7EE)
     bot.onMessage(onmessage)
-    bot.run()
+    bot.run(countryandlifee)
 
 if __name__ == '__main__':
     try:
